@@ -1,0 +1,20 @@
+{
+  "name": "node-docker-project",
+  "version": "1.0.0",
+  "description": "a simple node app set up with docker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "startDev": "nodemon -L server.js"
+  },
+  "author": "Calum bradbury",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
