@@ -20,7 +20,7 @@ COPY . ./
 #Port to run on (this command actually doesnt do anything, it is more for documentation than anything)
 EXPOSE 3000
 #Run command for container
-CMD ["npm", "run", "startDev"]
+CMD ["node", "server.js"]
 
 
 #-----------------Docker commands-------------

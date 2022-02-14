@@ -2,6 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const app = express();
 
+app.enable('trust proxy');
 app.use(morgan("dev"));
 
 
@@ -10,3 +11,5 @@ app.get('/', (req, res) => {
 })
 
 module.exports = app
+
+// docker-compose up --build
